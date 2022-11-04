@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+//Styling
+import "./App.css"
+
 // App & Comp
 import App from "./App";
 
