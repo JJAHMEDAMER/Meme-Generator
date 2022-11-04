@@ -57,3 +57,8 @@ body {
     background-color: blueviolet;
     color: aliceblue;
 }
+
+.meme--img{
+    grid-column: 1/-1;
+    width: 100%;
+}
