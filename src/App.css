@@ -28,3 +28,32 @@ body {
 .navbar--img {
     width: 40px;
 }
+
+.form {
+    margin: 50px;
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form--input {
+    font-size: 12px;
+    font-family: "Karla";
+    padding: 5px 10px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+
+
+}
+
+.form--button {
+    grid-column: 1/-1;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    font-family: "Karla";
+    font-size: 16px;
+    font-weight: 600;
+    background-color: blueviolet;
+    color: aliceblue;
+}
